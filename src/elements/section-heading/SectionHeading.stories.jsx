@@ -2,14 +2,14 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
 
-import { Heading } from './Heading';
+import { SectionHeading } from './SectionHeading';
 
-storiesOf('elements/Heading', module)
+storiesOf('elements/SectionHeading', module)
   .addDecorator(withKnobs)
   .add('default', () => {
     return (
-      <Heading
-        title={text('Title', 'Heading')}
+      <SectionHeading
+        title={text('Section Heading Text', 'Hello')}
       />
     )
   });

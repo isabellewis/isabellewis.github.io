@@ -2,14 +2,15 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
 
-import { Heading } from './Heading';
+import { MenuItem } from './MenuItem';
 
-storiesOf('elements/Heading', module)
+storiesOf('elements/MenuItem', module)
   .addDecorator(withKnobs)
   .add('default', () => {
     return (
-      <Heading
-        title={text('Title', 'Heading')}
+      <MenuItem
+        menuItemText={text('Menu Item Text', 'Page1')}
+        menuItemLocation="aboutPanel"
       />
     )
   });
