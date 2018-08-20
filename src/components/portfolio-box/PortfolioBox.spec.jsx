@@ -57,5 +57,22 @@ describe('PortfolioBox', () => {
 
 	it('should match the snapshot', () => {
 		expect(component).toMatchSnapshot();
-	});
+  });
+  
+  it('should handle all arrow clicks left', () => {
+    expect(component.find('.material-icons.left').simulate('click'));
+    expect(component.find('.material-icons.left').simulate('click'));
+    expect(component.find('.material-icons.left').simulate('click'));
+    expect(component.find('.material-icons.left').simulate('click'));
+		expect(component).toMatchSnapshot();
+
+    expect(component.find('.material-icons.right').simulate('click'));
+    expect(component.find('.material-icons.right').simulate('click'));
+    expect(component.find('.material-icons.right').simulate('click'));
+    expect(component.find('.material-icons.right').simulate('click'));
+		expect(component).toMatchSnapshot();
+  });
 });
+
+
+//scenarios to test 1 - 

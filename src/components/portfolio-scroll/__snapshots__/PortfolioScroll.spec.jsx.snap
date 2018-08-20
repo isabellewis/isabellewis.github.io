@@ -1,0 +1,483 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioScroll should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PortfolioScroll />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <PortfolioItem
+          index={0}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React"
+        />,
+        <PortfolioItem
+          index={1}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project"
+        />,
+        <PortfolioItem
+          index={2}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name"
+        />,
+        <PortfolioItem
+          index={3}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name Goes"
+        />,
+        <PortfolioItem
+          index={4}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name Goes Here"
+        />,
+        <PortfolioItem
+          index={5}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name Goes Here"
+        />,
+        <PortfolioItem
+          index={6}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name Goes Here"
+        />,
+        <PortfolioItem
+          index={7}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name Goes Here"
+        />,
+        <PortfolioItem
+          index={8}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name Goes Here"
+        />,
+        <PortfolioItem
+          index={9}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name Goes Here"
+        />,
+        <PortfolioItem
+          index={10}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name Goes Here"
+        />,
+        <PortfolioItem
+          index={11}
+          portfolioItemLink="https://www.google.com"
+          portfolioItemText="React Project Name Goes Here"
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 0,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 1,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 2,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 3,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name Goes",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 4,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name Goes Here",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 5,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name Goes Here",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 6,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name Goes Here",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 7,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name Goes Here",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 8,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name Goes Here",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 9,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name Goes Here",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 10,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name Goes Here",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "index": 11,
+          "portfolioItemLink": "https://www.google.com",
+          "portfolioItemText": "React Project Name Goes Here",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <PortfolioItem
+            index={0}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React"
+          />,
+          <PortfolioItem
+            index={1}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project"
+          />,
+          <PortfolioItem
+            index={2}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name"
+          />,
+          <PortfolioItem
+            index={3}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name Goes"
+          />,
+          <PortfolioItem
+            index={4}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name Goes Here"
+          />,
+          <PortfolioItem
+            index={5}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name Goes Here"
+          />,
+          <PortfolioItem
+            index={6}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name Goes Here"
+          />,
+          <PortfolioItem
+            index={7}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name Goes Here"
+          />,
+          <PortfolioItem
+            index={8}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name Goes Here"
+          />,
+          <PortfolioItem
+            index={9}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name Goes Here"
+          />,
+          <PortfolioItem
+            index={10}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name Goes Here"
+          />,
+          <PortfolioItem
+            index={11}
+            portfolioItemLink="https://www.google.com"
+            portfolioItemText="React Project Name Goes Here"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 0,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 1,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 2,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 3,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name Goes",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 4,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name Goes Here",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 5,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name Goes Here",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 6,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name Goes Here",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 7,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name Goes Here",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 8,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name Goes Here",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 9,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name Goes Here",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 10,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name Goes Here",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 11,
+            "portfolioItemLink": "https://www.google.com",
+            "portfolioItemText": "React Project Name Goes Here",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

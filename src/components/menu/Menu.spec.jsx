@@ -12,4 +12,14 @@ describe('Menu', () => {
 	it('should match the snapshot', () => {
 		expect(component).toMatchSnapshot();
 	});
+
+	it('should change state when menu toggle is called', () => {
+		component.instance().setState({
+			menuOpen: false
+		});
+
+		component.instance().openMenuToggle();
+
+		expect(component.instance().state.menuOpen === true);
+	});
 });

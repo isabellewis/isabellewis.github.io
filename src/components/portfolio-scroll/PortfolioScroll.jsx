@@ -1,12 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import { PortfolioItem } from '../../elements';
-
-const PortfolioScrollWrapper = styled.div`
-  overflow-x: scroll;
-  white-space: nowrap;
-`;
+import { PortfolioScrollWrapper } from './PortfolioScroll.style';
 
 export const PortfolioScroll = () => (
   <PortfolioScrollWrapper>

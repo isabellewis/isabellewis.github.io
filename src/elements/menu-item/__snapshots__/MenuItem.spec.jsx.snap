@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MenuItem should match the snapshot 1`] = `
+exports[`elements/MenuItem should match the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -20,12 +20,24 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": "MenuItem test text",
-      "className": "short-copy-text",
+      "children": <a>
+        MenuItem test text
+      </a>,
+      "class": "menuItem",
       "onClick": [Function],
     },
     "ref": null,
-    "rendered": "MenuItem test text",
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "MenuItem test text",
+      },
+      "ref": null,
+      "rendered": "MenuItem test text",
+      "type": "a",
+    },
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -34,12 +46,24 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": "MenuItem test text",
-        "className": "short-copy-text",
+        "children": <a>
+          MenuItem test text
+        </a>,
+        "class": "menuItem",
         "onClick": [Function],
       },
       "ref": null,
-      "rendered": "MenuItem test text",
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "MenuItem test text",
+        },
+        "ref": null,
+        "rendered": "MenuItem test text",
+        "type": "a",
+      },
       "type": [Function],
     },
   ],

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 import { ShortCopy } from './ShortCopy';
 
-describe('ShortCopy', () => {
+describe('elements/ShortCopy', () => {
 	let component;
 
 	beforeEach(() => {

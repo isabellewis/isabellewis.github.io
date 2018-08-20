@@ -6,10 +6,15 @@ describe('Modal', () => {
 	let component;
 
 	beforeEach(() => {
-		component = shallow(<Modal title='Modal test text' />);
+		component = shallow(<Modal open={true} text='Modal test text' />);
 	});
 
-	it('should match the snapshot', () => {
+	it('should match the snapshot when open', () => {
+		expect(component).toMatchSnapshot();
+	});
+
+	it('should match the snapshot when closed', () => {
+		component = shallow(<Modal open={false} text='Modal test text' />);
 		expect(component).toMatchSnapshot();
 	});
 });

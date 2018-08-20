@@ -1,19 +1,20 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import styled from 'styled-components';
-import { Heading } from '../../elements';
+import { TypingText } from '../../components';
 
 const HeroWrapper = styled.div`
 	animation: 2s fadeIn 1;
-	height: 100%;
+	background: #ffaeae;
+	display: block;
+	min-height: 100%;
 	margin: 0;
-	padding: 100px 10px;
+	overflow: hidden;
+	padding: 100px 30px;
 	text-align: right;
+	width: 100%;
 
 	@keyframes fadeIn {
-		0% {
-			opacity: 0;
-		}
-		30% {
+		0%, 30% {
 			opacity: 0;
 		}
 		100% {
@@ -22,16 +23,26 @@ const HeroWrapper = styled.div`
 	}
 
 	@media only screen and (min-width: 576px) {
-		padding: 200px 8px;
+		padding: 200px 50px;
 	}
 
 	@media only screen and (min-width: 992px) {
-		padding: 300px 60px;
+		padding: 300px 200px;
 	}
 `;
 
-export const HeroPanel = () => (
-	<HeroWrapper id="heroPanel">
-		<Heading title="Isabel Lewis" />
-	</HeroWrapper>
-);
+const headingText = ['Isabel', 'Iz', 'Izzy', 'Is', 'Izzy'];
+
+export class HeroPanel extends PureComponent {
+	constructor(props) {
+		super(props);
+	}
+
+	render() {
+		return (
+			<HeroWrapper id="heroPanel">
+				<TypingText textValues={headingText} />
+			</HeroWrapper>
+		);
+	}
+}

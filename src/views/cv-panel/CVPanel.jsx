@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { SectionHeading, ShortCopy } from '../../elements';
 
 const CVWrapper = styled.div`
-  height: 100%;
+  min-height: 100%;
   padding: 30px 0;
 `;
 
