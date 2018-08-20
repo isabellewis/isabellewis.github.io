@@ -16,10 +16,12 @@ const AboutWrapper = styled.div`
 `;
 
 const TextWrapper = styled.div`
+	margin: 0 auto;
+	max-width: 1000px;
 	padding: 30px;
 
 	@media only screen and (min-width: 576px) {
-		padding: 50px;
+		padding: 50px 150px;
 	}
 `;
 
@@ -77,7 +79,7 @@ export const AboutPanel = () => (
 			<ImageImg src={require('../../assets/images/img3.jpg')} />
 		<TextWrapper>
 			<ShortCopy
-				shortCopyText="Hello. I'm a web developer from London. When I'm not ticking off JIRA tickets I enjoy playing guitar and travelling. Have a look at my portfolio on this page."
+				shortCopyText="Hello. I'm a web developer from London. When I'm not ticking off JIRA tickets I enjoy playing guitar and travelling. Have a look at the side projects I've added to my page."
 			/>
 		</TextWrapper>
 	</AboutWrapper>

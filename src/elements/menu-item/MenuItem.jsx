@@ -25,7 +25,7 @@ export class MenuItem extends PureComponent {
 		} = this.props;
 	
 		return (
-			<MenuItemWrapper class='menuItem' onClick={this.menuItemScroll}>
+			<MenuItemWrapper className='menuItem' onClick={this.menuItemScroll}>
 				<a>
 					{ menuItemText }
 				</a>
