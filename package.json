@@ -9,7 +9,8 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test": "jest --config=jest.config.json --watch",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build": "webpack-dev-server --config ./webpack.config.js --mode production"
   },
   "devDependencies": {
     "@storybook/react": "^3.4.6",
