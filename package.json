@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "@storybook/addon-knobs": "^3.4.6",
+    "http-server": "^0.11.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "storybook": "^1.0.0",
