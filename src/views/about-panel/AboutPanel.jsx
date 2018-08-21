@@ -78,8 +78,11 @@ export const AboutPanel = () => (
 	<AboutWrapper id="aboutPanel">
 			<ImageImg src={require('../../assets/images/img3.jpg')} />
 		<TextWrapper>
+			{/* <ShortCopy
+				shortCopyText="Hello. I'm a web developer from London. When I'm not ticking off JIRA tickets I enjoy playing guitar and travelling. Have a look at the portfolio I've added to my page."
+			/> */}
 			<ShortCopy
-				shortCopyText="Hello. I'm a web developer from London. When I'm not ticking off JIRA tickets I enjoy playing guitar and travelling. Have a look at the side projects I've added to my page."
+				shortCopyText="Hello. I'm a web developer from London. When I'm not ticking off JIRA tickets I enjoy playing guitar and travelling. I'll be adding my portfolio to this page so stay tuned."
 			/>
 		</TextWrapper>
 	</AboutWrapper>
