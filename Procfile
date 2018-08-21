@@ -1,1 +1,1 @@
-webpack-dev-server: ./node_modules/webpack-dev-server/bin/webpack-dev-server.js
+web: http-server ./dist
