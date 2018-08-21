@@ -1,1 +1,1 @@
-test: http-server ./dist
+web: http-server ./dist
