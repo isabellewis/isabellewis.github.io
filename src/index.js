@@ -46,8 +46,6 @@ const App = () => (
 			<MenuPanel />
 		</MenuWrapper>
 		<AboutPanel />
-		{/* <PortfolioPanel /> */}
-		{/* <CVPanel /> */}
 		<Footer />
 	</AppDiv>
 );
