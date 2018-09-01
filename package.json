@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:isabellewis/isabellewis.git",
+  "homepage" : "http://isabellewis.github.io/isabellewis.github.io",
   "author": "Isabel <isabelrlewis@gmail.com>",
   "license": "MIT",
   "private": true,
