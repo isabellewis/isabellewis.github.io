@@ -2,8 +2,7 @@
   "name": "isabellewis",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:isabellewis/isabellewis.git",
-  "homepage" : "http://isabellewis.github.io/isabellewis.github.io",
+  "repository": "git@github.com:isabellewis/isabellewis.github.io.git",
   "author": "Isabel <isabelrlewis@gmail.com>",
   "license": "MIT",
   "private": true,
@@ -12,7 +11,9 @@
     "test": "jest --config=jest.config.json --watch",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "webpack --mode production",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@storybook/react": "^3.4.6",
@@ -36,6 +37,7 @@
   },
   "dependencies": {
     "@storybook/addon-knobs": "^3.4.6",
+    "gh-pages": "^1.2.0",
     "http-server": "^0.11.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
