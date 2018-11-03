@@ -20,8 +20,6 @@ const PortfolioItemDiv = styled.div`
   &.active {
     background: #fff;
     border: 5px solid #ffaeae;
-    height: 200px;
-    width: 200px;
   }
 
   &.inactive {

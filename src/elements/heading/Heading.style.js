@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const HeadingOne = styled.h1`
+	color: #fff;
 	cursor: default;
 	font-family: "Courier New", Courier, monospace;
 	font-size: 50px;

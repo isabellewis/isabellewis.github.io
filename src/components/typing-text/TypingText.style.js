@@ -8,7 +8,7 @@ const HoverTyping = styled.div`
 	
 	@keyframes blink {
 		from, to { border-color: transparent }
-		50% { border-color: #000; }
+		50% { border-color: #fff; }
 	}
 
 

@@ -4,7 +4,7 @@ import { TypingText } from '../../components';
 
 const HeroWrapper = styled.div`
 	animation: 2s fadeIn 1;
-	background: #ffaeae;
+	background: #000;
 	display: block;
 	min-height: 100%;
 	margin: 0;
