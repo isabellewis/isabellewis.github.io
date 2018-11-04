@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import { MenuPanel, HeroPanel, AboutPanel, PortfolioPanel, CVPanel, Footer } from './views';
 
-require('file-loader?name=[name].[ext]!../index.html');
+// require('file-loader?name=[name].[ext]!../index.html');
 
 const AppDiv = styled.div`
 	min-height: 100%;
@@ -38,9 +38,9 @@ const MenuWrapper = styled.div`
 
 const App = () => (
 	<AppDiv className="app">
-		<MenuWrapper className="mobile">
+		{/* <MenuWrapper className="mobile">
 			<MenuPanel />
-		</MenuWrapper>
+		</MenuWrapper> */}
 		<HeroPanel />
 		<MenuWrapper className="desktop">
 			<MenuPanel />
