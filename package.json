@@ -13,8 +13,7 @@
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "webpack --mode production",
     "postinstall": "npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   },
   "devDependencies": {
     "@storybook/react": "3.4.6",
