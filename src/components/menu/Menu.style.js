@@ -11,7 +11,7 @@ const MenuList = styled.ul`
 		display: block;
 		overflow: hidden;
 
-		@media only screen and (min-width: 576px) {
+		@media (min-width: 576px) {
 			display: inline-block;
 		}
 	}
@@ -19,7 +19,7 @@ const MenuList = styled.ul`
 	&.inactive {
 		display: none;
 
-		@media only screen and (min-width: 576px) {
+		@media (min-width: 576px) {
 			display: inline-block;
 		}
 	}
@@ -28,7 +28,7 @@ const MenuList = styled.ul`
 const MenuListWrapper = styled.div`
 	text-align: right;
 
-	@media only screen and (min-width: 576px) {
+	@media (min-width: 576px) {
 		text-align: left;
 	}
 `;
@@ -38,7 +38,7 @@ const MenuToggleIcon = styled.i`
 	display: inline-block;
 	vertical-align: middle;
 
-	@media only screen and (min-width: 576px) {
+	@media (min-width: 576px) {
 		display: none;
 	}
 `;
