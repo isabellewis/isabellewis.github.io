@@ -5,13 +5,12 @@
   "coverageDirectory": "./dashboard/coverage",
   "coverageReporters": ["json", "lcov", "text", "text-summary"],
   "collectCoverageFrom": [
-    "src/**/**",
-    "!src/assets/*",
+    "src/**/**.jsx",
     "!src/styles/**",
-    "!src/utils/**",
-    "!**/*.spec.*",
-    "!**/*.stories.*",
-    "!**/*.style.*",
+    "!src/assets/**",
+    "!src/**/*.style.**",
+    "!src/**/*.stories.**",
+    "!**/*.spec.**",
     "!**/__snapshots__/**",
     "!**/index.js"
   ],

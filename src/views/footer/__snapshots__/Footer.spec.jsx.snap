@@ -2,28 +2,28 @@
 
 exports[`views/Footer should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Footer />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <styled.div>
+        <ForwardRef>
           <ShortCopy
             shortCopyText="Fancy a chat?"
             theme="light"
           />
-        </styled.div>,
+        </ForwardRef>,
         <SocialMedia
           theme="footer"
         />,
@@ -34,7 +34,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": <ShortCopy
             shortCopyText="Fancy a chat?"
@@ -54,7 +54,24 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "Footer__CopyStyling-bubGHg",
+            "isStatic": true,
+            "rules": Array [
+              "color:#bbb;text-align:center;",
+            ],
+          },
+          "displayName": "Footer__CopyStyling",
+          "render": [Function],
+          "styledComponentId": "Footer__CopyStyling-bubGHg",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
@@ -68,21 +85,38 @@ ShallowWrapper {
         "type": [Function],
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "Footer__FooterPanel-ksWeIc",
+        "isStatic": true,
+        "rules": Array [
+          "background:#fff;padding:10px;width:100%;",
+        ],
+      },
+      "displayName": "Footer__FooterPanel",
+      "render": [Function],
+      "styledComponentId": "Footer__FooterPanel-ksWeIc",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <styled.div>
+          <ForwardRef>
             <ShortCopy
               shortCopyText="Fancy a chat?"
               theme="light"
             />
-          </styled.div>,
+          </ForwardRef>,
           <SocialMedia
             theme="footer"
           />,
@@ -93,7 +127,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": <ShortCopy
               shortCopyText="Fancy a chat?"
@@ -113,7 +147,24 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "Footer__CopyStyling-bubGHg",
+              "isStatic": true,
+              "rules": Array [
+                "color:#bbb;text-align:center;",
+              ],
+            },
+            "displayName": "Footer__CopyStyling",
+            "render": [Function],
+            "styledComponentId": "Footer__CopyStyling-bubGHg",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
@@ -127,13 +178,40 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "Footer__FooterPanel-ksWeIc",
+          "isStatic": true,
+          "rules": Array [
+            "background:#fff;padding:10px;width:100%;",
+          ],
+        },
+        "displayName": "Footer__FooterPanel",
+        "render": [Function],
+        "styledComponentId": "Footer__FooterPanel-ksWeIc",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

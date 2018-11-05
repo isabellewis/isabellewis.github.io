@@ -2,7 +2,6 @@
 
 exports[`Menu should match the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Menu
     title="Menu test text"
@@ -11,22 +10,23 @@ ShallowWrapper {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <styled.i
+        <ForwardRef
           className="material-icons close"
           onClick={[Function]}
         >
           
-        </styled.i>,
-        <styled.ul
+        </ForwardRef>,
+        <ForwardRef
           className="inactive"
           onClick={[Function]}
         >
@@ -38,21 +38,13 @@ ShallowWrapper {
             menuItemLocation="aboutPanel"
             menuItemText="about"
           />
-          <MenuItem
-            menuItemLocation="portfolioPanel"
-            menuItemText="portfolio"
-          />
-          <MenuItem
-            menuItemLocation="cvPanel"
-            menuItemText="cv"
-          />
-        </styled.ul>,
-        <styled.i
+        </ForwardRef>,
+        <ForwardRef
           className="material-icons menu"
           onClick={[Function]}
         >
           menu
-        </styled.i>,
+        </ForwardRef>,
         <SocialMedia
           theme="mainMenu"
         />,
@@ -63,7 +55,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "",
           "className": "material-icons close",
@@ -71,12 +63,29 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "Menustyle__MenuToggleIcon-guVoPz",
+            "isStatic": true,
+            "rules": Array [
+              "cursor:pointer;display:inline-block;vertical-align:middle;@media (min-width:576px){display:none;}",
+            ],
+          },
+          "displayName": "Menustyle__MenuToggleIcon",
+          "render": [Function],
+          "styledComponentId": "Menustyle__MenuToggleIcon-guVoPz",
+          "target": "i",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": Array [
             <MenuItem
@@ -86,14 +95,6 @@ ShallowWrapper {
             <MenuItem
               menuItemLocation="aboutPanel"
               menuItemText="about"
-            />,
-            <MenuItem
-              menuItemLocation="portfolioPanel"
-              menuItemText="portfolio"
-            />,
-            <MenuItem
-              menuItemLocation="cvPanel"
-              menuItemText="cv"
             />,
           ],
           "className": "inactive",
@@ -125,37 +126,30 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "menuItemLocation": "portfolioPanel",
-              "menuItemText": "portfolio",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "menuItemLocation": "cvPanel",
-              "menuItemText": "cv",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
         ],
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "Menustyle__MenuList-hTtCcN",
+            "isStatic": true,
+            "rules": Array [
+              "display:inline-block;margin:0 0 0 auto;padding:0;vertical-align:middle;white-space:nowrap;&.active{display:block;overflow:hidden;@media (min-width:576px){display:inline-block;}}&.inactive{display:none;@media (min-width:576px){display:inline-block;}}",
+            ],
+          },
+          "displayName": "Menustyle__MenuList",
+          "render": [Function],
+          "styledComponentId": "Menustyle__MenuList-hTtCcN",
+          "target": "ul",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "menu",
           "className": "material-icons menu",
@@ -163,7 +157,24 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "menu",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "Menustyle__MenuToggleIcon-guVoPz",
+            "isStatic": true,
+            "rules": Array [
+              "cursor:pointer;display:inline-block;vertical-align:middle;@media (min-width:576px){display:none;}",
+            ],
+          },
+          "displayName": "Menustyle__MenuToggleIcon",
+          "render": [Function],
+          "styledComponentId": "Menustyle__MenuToggleIcon-guVoPz",
+          "target": "i",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
@@ -177,22 +188,39 @@ ShallowWrapper {
         "type": [Function],
       },
     ],
-    "type": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "Menustyle__MenuListWrapper-bZesvT",
+        "isStatic": true,
+        "rules": Array [
+          "text-align:right;@media (min-width:576px){text-align:left;}",
+        ],
+      },
+      "displayName": "Menustyle__MenuListWrapper",
+      "render": [Function],
+      "styledComponentId": "Menustyle__MenuListWrapper-bZesvT",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <styled.i
+          <ForwardRef
             className="material-icons close"
             onClick={[Function]}
           >
             
-          </styled.i>,
-          <styled.ul
+          </ForwardRef>,
+          <ForwardRef
             className="inactive"
             onClick={[Function]}
           >
@@ -204,21 +232,13 @@ ShallowWrapper {
               menuItemLocation="aboutPanel"
               menuItemText="about"
             />
-            <MenuItem
-              menuItemLocation="portfolioPanel"
-              menuItemText="portfolio"
-            />
-            <MenuItem
-              menuItemLocation="cvPanel"
-              menuItemText="cv"
-            />
-          </styled.ul>,
-          <styled.i
+          </ForwardRef>,
+          <ForwardRef
             className="material-icons menu"
             onClick={[Function]}
           >
             menu
-          </styled.i>,
+          </ForwardRef>,
           <SocialMedia
             theme="mainMenu"
           />,
@@ -229,7 +249,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "",
             "className": "material-icons close",
@@ -237,12 +257,29 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "Menustyle__MenuToggleIcon-guVoPz",
+              "isStatic": true,
+              "rules": Array [
+                "cursor:pointer;display:inline-block;vertical-align:middle;@media (min-width:576px){display:none;}",
+              ],
+            },
+            "displayName": "Menustyle__MenuToggleIcon",
+            "render": [Function],
+            "styledComponentId": "Menustyle__MenuToggleIcon-guVoPz",
+            "target": "i",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": Array [
               <MenuItem
@@ -252,14 +289,6 @@ ShallowWrapper {
               <MenuItem
                 menuItemLocation="aboutPanel"
                 menuItemText="about"
-              />,
-              <MenuItem
-                menuItemLocation="portfolioPanel"
-                menuItemText="portfolio"
-              />,
-              <MenuItem
-                menuItemLocation="cvPanel"
-                menuItemText="cv"
               />,
             ],
             "className": "inactive",
@@ -291,37 +320,30 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "menuItemLocation": "portfolioPanel",
-                "menuItemText": "portfolio",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "menuItemLocation": "cvPanel",
-                "menuItemText": "cv",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
           ],
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "Menustyle__MenuList-hTtCcN",
+              "isStatic": true,
+              "rules": Array [
+                "display:inline-block;margin:0 0 0 auto;padding:0;vertical-align:middle;white-space:nowrap;&.active{display:block;overflow:hidden;@media (min-width:576px){display:inline-block;}}&.inactive{display:none;@media (min-width:576px){display:inline-block;}}",
+              ],
+            },
+            "displayName": "Menustyle__MenuList",
+            "render": [Function],
+            "styledComponentId": "Menustyle__MenuList-hTtCcN",
+            "target": "ul",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "menu",
             "className": "material-icons menu",
@@ -329,7 +351,24 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "menu",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "Menustyle__MenuToggleIcon-guVoPz",
+              "isStatic": true,
+              "rules": Array [
+                "cursor:pointer;display:inline-block;vertical-align:middle;@media (min-width:576px){display:none;}",
+              ],
+            },
+            "displayName": "Menustyle__MenuToggleIcon",
+            "render": [Function],
+            "styledComponentId": "Menustyle__MenuToggleIcon-guVoPz",
+            "target": "i",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
@@ -343,13 +382,40 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
-      "type": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "Menustyle__MenuListWrapper-bZesvT",
+          "isStatic": true,
+          "rules": Array [
+            "text-align:right;@media (min-width:576px){text-align:left;}",
+          ],
+        },
+        "displayName": "Menustyle__MenuListWrapper",
+        "render": [Function],
+        "styledComponentId": "Menustyle__MenuListWrapper-bZesvT",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

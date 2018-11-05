@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components';
 
-import { MenuPanel, HeroPanel, AboutPanel, PortfolioPanel, CVPanel, Footer } from './views';
+import { MenuPanel, HeroPanel, AboutPanel, Footer } from './views';
 
-// require('file-loader?name=[name].[ext]!../index.html');
+require('file-loader?name=[name].[ext]!../index.html');
 
 const AppDiv = styled.div`
 	min-height: 100%;
@@ -21,7 +21,7 @@ const MenuWrapper = styled.div`
 	&.mobile {
 		display: block;
 
-		@media only screen and (min-width: 576px) {
+		@media (min-width: 576px) {
 			display: none;
 		}
 	}
@@ -29,7 +29,7 @@ const MenuWrapper = styled.div`
 	&.desktop {
 		display: none;
 
-		@media only screen and (min-width: 576px) {
+		@media (min-width: 576px) {
 			display: block;
 		}
 	}
@@ -38,9 +38,9 @@ const MenuWrapper = styled.div`
 
 const App = () => (
 	<AppDiv className="app">
-		{/* <MenuWrapper className="mobile">
+		<MenuWrapper className="mobile">
 			<MenuPanel />
-		</MenuWrapper> */}
+		</MenuWrapper>
 		<HeroPanel />
 		<MenuWrapper className="desktop">
 			<MenuPanel />

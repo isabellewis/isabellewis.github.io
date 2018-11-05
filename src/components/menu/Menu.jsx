@@ -34,8 +34,8 @@ export class Menu extends Component {
 				<MenuList className={this.state.menuOpen ? 'active' : 'inactive'} onClick={this.openMenuToggle}>
 					<MenuItem menuItemText="home" menuItemLocation="heroPanel" />
 					<MenuItem menuItemText="about" menuItemLocation="aboutPanel" />
-					{/* <MenuItem menuItemText="portfolio" menuItemLocation="portfolioPanel" /> */}
-					{/* <MenuItem menuItemText="cv" menuItemLocation="cvPanel" /> */}
+					{/* <MenuItem menuItemText="portfolio" menuItemLocation="portfolioPanel" />
+					<MenuItem menuItemText="cv" menuItemLocation="cvPanel" /> */}
 				</MenuList>
 				<MenuToggleIcon className="material-icons menu" onClick={this.openMenuToggle}>{this.state.menuOpen ? '' : 'menu' }</MenuToggleIcon>
 				<SocialMedia theme='mainMenu' />

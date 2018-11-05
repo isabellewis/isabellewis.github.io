@@ -1,5 +1,5 @@
-//Added for jest testing
-import { configure } from 'enzyme';
+//Added for enzyme testing
+import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-configure({ adapter: new Adapter() });
+Enzyme.configure({ adapter: new Adapter() });
