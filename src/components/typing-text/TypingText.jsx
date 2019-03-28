@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Heading } from '../../elements';
+import { TypingTextHeading } from '../../elements';
 
 import {
-  HoverTyping,
+  TypingTextWrapper,
 } from './TypingText.style';
 
 export class TypingText extends Component {
@@ -11,7 +11,7 @@ export class TypingText extends Component {
 
 		this.state = {
 			textIndex: 0,
-			textDisplayed: 'Isabel',
+			textDisplayed: 'Full-Stack',
 			animating: false,
 			deleting: false,
 			writing: false,
@@ -49,9 +49,20 @@ export class TypingText extends Component {
 				textDisplayed: prevState.textDisplayed + textValues[prevState.textIndex][prevState.textDisplayed.length],
 			}));
 		} else {
-			this.endAnimation();
+			this.setState({
+				animating: true,
+				deleting: true,
+			});
 		}
 	}
+
+  componentWillMount() {
+    this.startAnimation();
+  }
+
+  componentWillUnmount() {
+    this.endAnimation();
+  }
 
 	endAnimation() {
 		this.setState({
@@ -74,9 +85,9 @@ export class TypingText extends Component {
 
 	render() {
 		return (
-      <HoverTyping onMouseOver={this.startAnimation}>
-        <Heading title={this.state.textDisplayed} />
-      </HoverTyping>
+      <TypingTextWrapper>
+        <TypingTextHeading title={this.state.textDisplayed} />
+      </TypingTextWrapper>
 		);
 	}
 }

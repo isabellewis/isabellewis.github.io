@@ -26,6 +26,8 @@ const MenuList = styled.ul`
 `;
 
 const MenuListWrapper = styled.div`
+  display: inline-block;
+  margin: 0 0 auto auto;
 	text-align: right;
 
 	@media (min-width: 576px) {

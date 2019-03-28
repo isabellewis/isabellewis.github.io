@@ -8,6 +8,7 @@ require('file-loader?name=[name].[ext]!../index.html');
 
 const AppDiv = styled.div`
 	min-height: 100%;
+  min-width: 250px;
 
 	* {
 		box-sizing: border-box;
@@ -15,34 +16,15 @@ const AppDiv = styled.div`
 `;
 
 const MenuWrapper = styled.div`
+  display: top;
 	top: 0;
 	position: sticky;
-
-	&.mobile {
-		display: block;
-
-		@media (min-width: 576px) {
-			display: none;
-		}
-	}
-
-	&.desktop {
-		display: none;
-
-		@media (min-width: 576px) {
-			display: block;
-		}
-	}
 `;
 
 
 const App = () => (
 	<AppDiv className="app">
-		<MenuWrapper className="mobile">
-			<MenuPanel />
-		</MenuWrapper>
-		<HeroPanel />
-		<MenuWrapper className="desktop">
+		<MenuWrapper>
 			<MenuPanel />
 		</MenuWrapper>
 		<AboutPanel />

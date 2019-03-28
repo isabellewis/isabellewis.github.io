@@ -6,12 +6,12 @@ import { ShortCopy } from '../../elements';
 const AboutWrapper = styled.div`
 	display: block;
 	min-height: 100%;
-	padding: 100px 10px;
+	padding: 90px 10px;
 	vertical-align: top;
 	width: 100%;
 
 	@media only screen and (min-width: 576px) {
-		padding: 200px 8px;
+		padding: 100px 8px;
 	}
 `;
 

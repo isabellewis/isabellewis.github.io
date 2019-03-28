@@ -32,8 +32,8 @@ export class Menu extends Component {
 			<MenuListWrapper>
 				<MenuToggleIcon className="material-icons close" onClick={this.openMenuToggle}>{this.state.menuOpen ? 'close' : '' }</MenuToggleIcon>
 				<MenuList className={this.state.menuOpen ? 'active' : 'inactive'} onClick={this.openMenuToggle}>
-					<MenuItem menuItemText="home" menuItemLocation="heroPanel" />
-					<MenuItem menuItemText="about" menuItemLocation="aboutPanel" />
+					<MenuItem menuItemText="Home" menuItemLocation="heroPanel" />
+					<MenuItem menuItemText="About" menuItemLocation="aboutPanel" />
 					{/* <MenuItem menuItemText="portfolio" menuItemLocation="portfolioPanel" />
 					<MenuItem menuItemText="cv" menuItemLocation="cvPanel" /> */}
 				</MenuList>

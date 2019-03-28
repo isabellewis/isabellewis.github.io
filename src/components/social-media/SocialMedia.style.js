@@ -26,7 +26,7 @@ const Logo = styled.i`
 	transition: color 1s;
 
 	:hover {
-		color: #5fccdc;
+		color: #2092b7;
 	}
 
 	&.footerLogo {

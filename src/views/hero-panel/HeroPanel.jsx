@@ -2,11 +2,14 @@ import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import { TypingText } from '../../components';
 
+import hello from '../../assets/images/img2.jpg';
+
 const HeroWrapper = styled.div`
 	animation: 2s fadeIn 1;
-	background: #000;
+  background-image: ${hello};
 	display: block;
 	min-height: 100%;
+  height: 3000px;
 	margin: 0;
 	overflow: hidden;
 	padding: 100px 30px;
@@ -31,7 +34,7 @@ const HeroWrapper = styled.div`
 	}
 `;
 
-const headingText = ['Isabel', 'Iz', 'Izzy', 'Is', 'Izzy'];
+const headingText = ['Full-Stack', 'React', 'Redux', 'MobX', 'Styled-Components', 'Webpack', 'Babel', 'Loopback', 'NodeJS', 'Continuous-Integration', 'Agile', 'SCRUM', 'KanBan'];
 
 export class HeroPanel extends PureComponent {
 	constructor(props) {
