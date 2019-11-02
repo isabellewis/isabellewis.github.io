@@ -15,7 +15,7 @@ const App = () => (
 
       <Switch>
         <Route exact path="/" component={HomePanel} />
-        {/* <Route path="/cv" component={CVPanel} /> */}
+        <Route path="/cv" component={CVPanel} />
       </Switch>
       <Footer />
     </AppDiv>

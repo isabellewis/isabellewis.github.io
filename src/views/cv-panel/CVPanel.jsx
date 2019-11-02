@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import { SectionHeading, ShortCopy } from '../../elements';
+import { SectionHeading, ShortCopy } from "../../elements";
 
 const CVWrapper = styled.div`
   min-height: 100%;

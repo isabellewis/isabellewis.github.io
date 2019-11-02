@@ -34,7 +34,7 @@ export class Menu extends Component {
           onClick={this.openMenuToggle}
         >
           <MenuItem menuItemText="Home" menuItemLocation="/" />
-          <MenuItem menuItemText="CV" menuItemLocation="/cv" />
+          {/* <MenuItem menuItemText="CV" menuItemLocation="/cv" /> */}
         </MenuList>
         <MenuToggleIcon
           className="material-icons menu"
