@@ -43,7 +43,7 @@ const ArrowIcon = styled.i`
 
 const PortfolioBoxTitle = styled.h2`
   color: #000;
-  font-family: 'Archivo Narrow',sans-serif;
+  font-family: 'Barlow',sans-serif;
   font-size: 45px;
   opacity: 1;
 `;

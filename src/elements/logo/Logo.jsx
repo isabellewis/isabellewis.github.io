@@ -6,7 +6,7 @@ import {
 export const Logo = ({
   label
 }) => (
-	<LogoText>
+	<LogoText href='/'>
 		{ label }
 	</LogoText>
 );

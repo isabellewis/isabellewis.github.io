@@ -31,7 +31,8 @@ const MenuListWrapper = styled.div`
 	text-align: right;
 
 	@media (min-width: 576px) {
-		text-align: left;
+    margin: 20px 0 16px 0;
+		text-align: center;
 	}
 `;
 

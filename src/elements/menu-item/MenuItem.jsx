@@ -1,35 +1,21 @@
-import React, { PureComponent } from 'react';
-import { MenuItemWrapper } from './MenuItem.style';
+import React, { PureComponent } from "react";
+import { MenuItemWrapper } from "./MenuItem.style";
+import { NavLink } from "react-router-dom";
 
 export class MenuItem extends PureComponent {
-	constructor(props) {
-		super(props);
+  constructor(props) {
+    super(props);
+  }
 
-		this.menuItemScroll = this.menuItemScroll.bind(this);
-	}
+  render() {
+    const { menuItemText, menuItemLocation } = this.props;
 
-	menuItemScroll() {
-		const {
-			menuItemLocation
-		} = this.props;
-
-		document.getElementById(menuItemLocation) &&
-		document.getElementById(menuItemLocation).scrollIntoView({
-			behavior: 'smooth'
-		});
-	};
-
-	render() {
-		const {
-			menuItemText,
-		} = this.props;
-	
-		return (
-			<MenuItemWrapper className='menuItem' onClick={this.menuItemScroll}>
-				<a>
-					{ menuItemText }
-				</a>
-			</MenuItemWrapper>
-		);
-	}
-}	
+    return (
+      <MenuItemWrapper className="menuItem">
+        <NavLink exact to={menuItemLocation}>
+          {menuItemText}
+        </NavLink>
+      </MenuItemWrapper>
+    );
+  }
+}

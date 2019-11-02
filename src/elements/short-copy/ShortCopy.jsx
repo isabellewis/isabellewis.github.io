@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 export const ShortCopyP = styled.p`
-	font-family: 'Archivo Narrow', sans-serif;
-	font-size: 18px;
+	font-family: 'Barlow', sans-serif;
+	font-size: 16px;
 `;
 
 export const ShortCopy = ({

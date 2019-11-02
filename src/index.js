@@ -1,40 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import styled from 'styled-components';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Route, HashRouter, Switch, NavLink } from "react-router-dom";
 
-import { MenuPanel, HeroPanel, AboutPanel, Footer } from './views';
+import { AppDiv, MenuWrapper } from "./index.style";
 
-require('file-loader?name=[name].[ext]!../index.html');
+import { MenuPanel, HomePanel, CVPanel, Footer } from "./views";
 
-const AppDiv = styled.div`
-	min-height: 100%;
-  min-width: 250px;
-
-	* {
-		box-sizing: border-box;
-	}
-`;
-
-const MenuWrapper = styled.div`
-  display: top;
-	top: 0;
-	position: sticky;
-`;
-
+require("file-loader?name=[name].[ext]!../index.html");
 
 const App = () => (
-	<AppDiv className="app">
-		<MenuWrapper>
-			<MenuPanel />
-		</MenuWrapper>
-		<AboutPanel />
-		<Footer />
-	</AppDiv>
+  <HashRouter>
+    <AppDiv className="app">
+      <MenuPanel />
+
+      <Switch>
+        <Route exact path="/" component={HomePanel} />
+        <Route path="/cv" component={CVPanel} />
+      </Switch>
+      <Footer />
+    </AppDiv>
+  </HashRouter>
 );
 
-ReactDOM.render(
-	<App />,
-	document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById("root"));
 
 module.hot.accept();

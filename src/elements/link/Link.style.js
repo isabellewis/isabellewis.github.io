@@ -3,7 +3,8 @@ import styled from 'styled-components';
 const LinkA = styled.a`
   border: 2px solid #ffaeae;
   color: #ffaeae;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   font-size: 18px;
   margin: 0 10px;
   padding: 15px;

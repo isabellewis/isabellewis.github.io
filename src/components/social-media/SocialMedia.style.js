@@ -61,6 +61,7 @@ const LogoA = styled.a`
 	
 		:last-child {
 			margin: 0 0 0 15px;
+      padding: 0 0 0 15px;
 		}
 	}
 `;
