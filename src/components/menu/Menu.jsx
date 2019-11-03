@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { MenuItem } from "../../elements";
 
+import { SocialMedia } from "../";
+
 import { MenuList, MenuListWrapper, MenuToggleIcon } from "./Menu.style";
 
 export class Menu extends Component {
@@ -29,12 +31,14 @@ export class Menu extends Component {
         >
           {this.state.menuOpen ? "close" : ""}
         </MenuToggleIcon>
-        <MenuList
-          className={this.state.menuOpen ? "active" : "inactive"}
-          onClick={this.openMenuToggle}
-        >
-          <MenuItem menuItemText="Home" menuItemLocation="/" />
-          {/* <MenuItem menuItemText="CV" menuItemLocation="/cv" /> */}
+        <MenuList className={this.state.menuOpen ? "active" : "inactive"}>
+          <MenuItem menuItemText="CV" menuItemLocation="/cv" />
+          <MenuItem menuItemText="Portfolio" menuItemLocation="/portfolio" />
+          <MenuItem menuItemText="Talks" menuItemLocation="/talks" />
+          <MenuItem
+            menuItemText="Recognitions"
+            menuItemLocation="/recognitions"
+          />
         </MenuList>
         <MenuToggleIcon
           className="material-icons menu"
@@ -42,6 +46,7 @@ export class Menu extends Component {
         >
           {this.state.menuOpen ? "" : "menu"}
         </MenuToggleIcon>
+        <SocialMedia theme="mainMenu" />
       </MenuListWrapper>
     );
   }

@@ -8,7 +8,7 @@ const FooterPanel = styled.div`
   background: #fff;
   bottom: 0;
   padding: 10px;
-  position: absolute;
+  position: sticky;
   width: 100%;
 `;
 

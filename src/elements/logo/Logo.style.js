@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const LogoText = styled.a`
   color: black;
   display: inline-block;
-  font-family: 'Raleway', serif;
+  font-family: "Raleway", serif;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 5px;
@@ -11,13 +11,10 @@ const LogoText = styled.a`
   text-align: center;
   text-decoration: none;
   user-select: none;
-  vertical-align: top;
 
   @media only screen and (min-width: 576px) {
-    margin: 20px 40px 16px 0;
+    margin: 2px 40px 0 0;
   }
 `;
 
-export {
-  LogoText
-};
+export { LogoText };

@@ -1,53 +1,61 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const MenuList = styled.ul`
-	display: inline-block;
-	margin: 0 0 0 auto;
-	padding: 0;
-	vertical-align: middle;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  vertical-align: middle;
   white-space: nowrap;
 
-	&.active {
-		display: block;
-		overflow: hidden;
+  &.active {
+    display: block;
+    overflow: hidden;
 
-		@media (min-width: 576px) {
-			display: inline-block;
-		}
-	}
+    @media (min-width: 576px) {
+      display: inline-block;
+    }
+  }
 
-	&.inactive {
-		display: none;
+  &.inactive {
+    display: none;
 
-		@media (min-width: 576px) {
-			display: inline-block;
-		}
-	}
+    @media (min-width: 576px) {
+      display: inline-block;
+    }
+  }
+
+  @media (min-width: 576px) {
+    position: relative;
+  }
 `;
 
 const MenuListWrapper = styled.div`
-  display: inline-block;
+  display: block;
   margin: 0 0 auto auto;
-	text-align: right;
+  text-align: right;
 
-	@media (min-width: 576px) {
-    margin: 20px 0 16px 0;
-		text-align: center;
-	}
+  @media (min-width: 576px) {
+    margin: 15px 0 15px;
+    text-align: left;
+  }
+
+  @media (min-width: 995px) {
+    display: inline-block;
+    margin: 0 0 0 auto;
+    text-align: center;
+  }
 `;
 
 const MenuToggleIcon = styled.i`
-	cursor: pointer;
-	display: inline-block;
-	vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
 
-	@media (min-width: 576px) {
-		display: none;
-	}
+  @media (min-width: 576px) {
+    display: none;
+  }
 `;
 
-export {
-  MenuList,
-  MenuListWrapper,
-  MenuToggleIcon,
-};
+export { MenuList, MenuListWrapper, MenuToggleIcon };

@@ -11,6 +11,6 @@ const CVWrapper = styled.div`
 export const CVPanel = () => (
   <CVWrapper id="cvPanel">
     <SectionHeading title="CV" />
-    <ShortCopy shortCopyText="I have much experience" />
+    <ShortCopy>Newcastle University</ShortCopy>
   </CVWrapper>
 );

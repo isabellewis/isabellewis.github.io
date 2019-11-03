@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, HashRouter, Switch, NavLink } from "react-router-dom";
+import { Route, HashRouter, Switch } from "react-router-dom";
 
 import { AppDiv, MenuWrapper } from "./index.style";
 
@@ -11,7 +11,9 @@ require("file-loader?name=[name].[ext]!../index.html");
 const App = () => (
   <HashRouter>
     <AppDiv className="app">
-      <MenuPanel />
+      <MenuWrapper>
+        <MenuPanel />
+      </MenuWrapper>
 
       <Switch>
         <Route exact path="/" component={HomePanel} />

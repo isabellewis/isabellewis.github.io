@@ -12,7 +12,7 @@ export class MenuItem extends PureComponent {
 
     return (
       <MenuItemWrapper className="menuItem">
-        <NavLink exact to={menuItemLocation}>
+        <NavLink className="menuItem-link" exact to={menuItemLocation}>
           {menuItemText}
         </NavLink>
       </MenuItemWrapper>
