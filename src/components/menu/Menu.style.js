@@ -27,7 +27,14 @@ const MenuList = styled.ul`
   }
 
   @media (min-width: 576px) {
+    display: block;
     position: relative;
+    width: 100%;
+  }
+
+  @media (min-width: 995px) {
+    display: inline-block;
+    width: auto;
   }
 `;
 
@@ -37,14 +44,16 @@ const MenuListWrapper = styled.div`
   text-align: right;
 
   @media (min-width: 576px) {
+    display: block;
     margin: 15px 0 15px;
-    text-align: left;
+    text-align: center;
+    width: 100%;
   }
 
   @media (min-width: 995px) {
     display: inline-block;
     margin: 0 0 0 auto;
-    text-align: center;
+    width: auto;
   }
 `;
 

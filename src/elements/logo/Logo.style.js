@@ -13,7 +13,15 @@ const LogoText = styled.a`
   user-select: none;
 
   @media only screen and (min-width: 576px) {
-    margin: 2px 40px 0 0;
+    display: block;
+    margin: 2px auto auto;
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 995px) {
+    display: inline-block;
+    margin: 5px 40px 0 0;
+    width: auto;
   }
 `;
 

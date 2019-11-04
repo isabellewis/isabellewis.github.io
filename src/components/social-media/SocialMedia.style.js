@@ -11,16 +11,18 @@ const SocialMediaWrapper = styled.div`
     margin: 0;
 
     @media only screen and (min-width: 576px) {
-      display: inline-block;
-      float: left;
+      display: block;
+      float: none;
       margin: 15px 0 0;
       padding: 0;
-      width: auto;
+      width: 100%;
     }
 
     @media only screen and (min-width: 995px) {
+      display: inline-block;
       float: right;
       margin: 0;
+      width: auto;
     }
   }
 `;
@@ -44,6 +46,10 @@ const Logo = styled.i`
 `;
 
 const LogoA = styled.a`
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+
   display: inline-block;
   margin: 0 7px;
   padding: 0 7px;
