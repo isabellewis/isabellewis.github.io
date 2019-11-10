@@ -10,6 +10,7 @@ const MenuList = styled.ul`
   white-space: nowrap;
 
   &.active {
+    background: #fff;
     display: block;
     overflow: hidden;
 

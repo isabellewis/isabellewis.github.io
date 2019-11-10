@@ -5,9 +5,17 @@ const MenuItemWrapper = styled.li`
   list-style-type: none;
   padding: 30px 10px 0;
 
+  &:last-child {
+    padding: 30px 10px 30px;
+  }
+
   @media only screen and (min-width: 576px) {
     display: inline-block;
     padding: 0 30px 0 0;
+
+    &:last-child {
+      padding: 0 30px 0 0;
+    }
   }
 
   .menuItem-link {

@@ -18,4 +18,16 @@ const MenuWrapper = styled.div`
   position: sticky;
 `;
 
-export { AppDiv, MenuWrapper };
+const Main = styled.main`
+  padding: 0 0 135px;
+
+  @media only screen and (min-width: 576px) {
+    padding: 10px 0 100px;
+  }
+
+  @media only screen and (min-width: 995px) {
+    padding: 10px 0 135px;
+  }
+`;
+
+export { AppDiv, MenuWrapper, Main };

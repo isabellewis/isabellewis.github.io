@@ -46,10 +46,6 @@ const Logo = styled.i`
 `;
 
 const LogoA = styled.a`
-  border: 1px solid black;
-  height: 20px;
-  width: 20px;
-
   display: inline-block;
   margin: 0 7px;
   padding: 0 7px;
@@ -67,7 +63,6 @@ const LogoA = styled.a`
     padding: 0 15px;
 
     :first-child {
-      margin: 0 15px 0 0;
       padding: 0;
     }
 
@@ -79,8 +74,8 @@ const LogoA = styled.a`
 
   @media only screen and (min-width: 995px) {
     :first-child {
-      margin: 0 15px 0 0;
-      padding: 0 15px 0 0;
+      margin: 0 15px;
+      padding: 0 15px;
     }
   }
 `;

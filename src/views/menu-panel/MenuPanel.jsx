@@ -8,7 +8,7 @@ const MenuWrapper = styled.nav`
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  opacity: 0.85;
+  opacity: 0.9;
   padding: 20px 0;
   width: 100%;
 

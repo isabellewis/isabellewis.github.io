@@ -8,7 +8,7 @@ const HomeWrapper = styled.div`
   width: 100%;
 
   @media only screen and (min-width: 576px) {
-    padding: 100px 0;
+    padding: 100px 0 0;
   }
 `;
 
