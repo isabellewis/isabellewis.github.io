@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Route, HashRouter, Switch } from "react-router-dom";
+import ReactGA from "react-ga";
+import GA from "./utils/GoogleAnalytics";
 
 import { AppDiv, MenuWrapper, Main } from "./index.style";
 
@@ -15,6 +17,8 @@ import {
 
 require("file-loader?name=[name].[ext]!../index.html");
 
+ReactGA.initialize("UA-151945406-1");
+
 const App = () => (
   <HashRouter>
     <AppDiv className="app">
@@ -22,6 +26,7 @@ const App = () => (
         <MenuPanel />
       </MenuWrapper>
       <Main>
+        {<GA.RouteTracker />}
         <Switch>
           <Route exact path="/" component={HomePanel} />
           <Route path="/cv" component={CVPanel} />

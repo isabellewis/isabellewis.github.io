@@ -13,6 +13,7 @@ export const MediaPanel = () => {
     <MediaPanelWrapper>
       <ul className="cardList light-panel">
         <li className="card">
+          <img className="mediaPanel__img" src={img}></img>
           <div className="mediaPanel__copy-container">
             <SectionHeading
               className="mediaPanel__h2"
@@ -28,10 +29,9 @@ export const MediaPanel = () => {
               webpage.
             </ShortCopy>
           </div>
-
-          <img className="mediaPanel__img" src={img}></img>
         </li>
         <li className="card">
+          <img className="mediaPanel__img" src={img6}></img>
           <div className="mediaPanel__copy-container">
             <SectionHeading
               className="mediaPanel__h2"
@@ -44,10 +44,9 @@ export const MediaPanel = () => {
               with how to break barriers down.
             </ShortCopy>
           </div>
-
-          <img className="mediaPanel__img" src={img6}></img>
         </li>
         <li className="card">
+          <img className="mediaPanel__img" src={img5}></img>
           <div className="mediaPanel__copy-container">
             <SectionHeading
               className="mediaPanel__h2"
@@ -61,7 +60,6 @@ export const MediaPanel = () => {
               offline first.
             </ShortCopy>
           </div>
-          <img className="mediaPanel__img" src={img5}></img>
         </li>
       </ul>
 

@@ -32,8 +32,9 @@ export class Menu extends Component {
           {this.state.menuOpen ? "close" : ""}
         </MenuToggleIcon>
         <MenuList className={this.state.menuOpen ? "active" : "inactive"}>
+          <MenuItem menuItemText="Home" menuItemLocation="/" />
           <MenuItem menuItemText="CV" menuItemLocation="/cv" />
-          <MenuItem menuItemText="Portfolio" menuItemLocation="/portfolio" />
+          {/* <MenuItem menuItemText="Portfolio" menuItemLocation="/portfolio" /> */}
           <MenuItem menuItemText="In the Media" menuItemLocation="/media" />
           <MenuItem
             menuItemText="Recognitions"

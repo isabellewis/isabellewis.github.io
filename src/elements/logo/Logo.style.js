@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const LogoText = styled.a`
+const LogoText = styled.p`
   color: black;
   display: inline-block;
   font-family: "Raleway", serif;

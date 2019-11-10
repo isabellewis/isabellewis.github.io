@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const RecognitionPanelWrapper = styled.div`
   .cardList {
+    animation: fadeIn 0.5s;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -12,9 +13,18 @@ const RecognitionPanelWrapper = styled.div`
 
   .card {
     background: #c6f1ff;
+    border: 10px solid #1e8bad;
     margin: 10px;
     overflow: hidden;
     width: 100%;
+
+    :nth-child(2) {
+      border-width: 10px 10px 0 10px;
+    }
+
+    :first-child {
+      border-width: 0 10px 10px 10px;
+    }
 
     @media only screen and (min-width: 576px) {
       max-width: 500px;
@@ -40,6 +50,16 @@ const RecognitionPanelWrapper = styled.div`
       &-link {
         color: #000;
       }
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
     }
   }
 `;
