@@ -62,12 +62,12 @@ export const CVPanel = () => (
         </li>
         <li>
           <ShortCopy>
-            Most recent role as Lead Front End developer for the Authentication
-            team at Lloyds Banking Group delivering Open Banking. This involved
-            building a reusable UI library using React, MobX, Styled Components
-            and Storybook and presenting solutions at client meetings. We also
-            used Jenkins and followed a bi-weekly release cycle for production
-            deployment.
+            Experience as a Lead Front End developer and sole manager of a
+            component library using a module approach used by other teams. This
+            involved building a reusable UI library using React, MobX, Styled
+            Components and Storybook and presenting solutions at client
+            meetings. We also used Jenkins and followed a bi-weekly release
+            cycle for production deployment.
           </ShortCopy>
         </li>
         <li>
@@ -147,16 +147,6 @@ export const CVPanel = () => (
         architecture, databases, operating systems, networks, distributed
         systems, web front end and back end, bio computing for machine learning,
         HCI, Reliability and Fault Tolerance.
-      </ShortCopy>
-      <HeadingThree>
-        2011-2013 | King Edward VI College, Stourbridge, A levels University
-      </HeadingThree>
-      <ShortCopy>Mathematics B, ICT B, Psychology C</ShortCopy>
-      <HeadingThree>
-        2006-2011 | Ounsdale High School, Wombourne, GCSE’s
-      </HeadingThree>
-      <ShortCopy>
-        11 GCSE’s A*-B including Maths A, English A and Science A*
       </ShortCopy>
     </div>
 
