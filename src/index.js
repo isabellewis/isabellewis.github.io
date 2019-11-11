@@ -17,8 +17,7 @@ import {
 
 require("file-loader?name=[name].[ext]!../index.html");
 
-// ReactGA.initialize("UA-151945406-1");
-ReactGA.initialize("UA-0");
+ReactGA.initialize("UA-151945406-1");
 
 const App = () => (
   <HashRouter>
