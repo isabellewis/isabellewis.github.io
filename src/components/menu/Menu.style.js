@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 const MenuList = styled.ul`
+  border: solid black;
+  border-width: 0 1px 2px;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -28,6 +30,7 @@ const MenuList = styled.ul`
   }
 
   @media (min-width: 576px) {
+    border: none;
     display: block;
     position: relative;
     width: 100%;

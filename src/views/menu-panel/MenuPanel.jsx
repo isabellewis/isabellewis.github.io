@@ -10,12 +10,20 @@ const MenuWrapper = styled.nav`
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  opacity: 0.9;
+  margin: 0 auto;
   padding: 20px 0;
   width: 100%;
 
   @media (min-width: 576px) {
     justify-content: left;
+    opacity: 0.95;
+  }
+
+  @media (min-width: 995px) {
+    justify-content: left;
+    opacity: 0.95;
+    max-width: 2000px;
+    width: 100%;
   }
 
   .logo-wrapper {

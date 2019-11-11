@@ -11,7 +11,7 @@ export class MenuItem extends PureComponent {
     const { menuItemText, menuItemLocation } = this.props;
 
     return (
-      <MenuItemWrapper className="menuItem">
+      <MenuItemWrapper className="menuItem" onClick={this.props.onClick}>
         <NavLink className="menuItem-link" exact to={menuItemLocation}>
           {menuItemText}
         </NavLink>

@@ -8,7 +8,8 @@ import { SectionHeading, ShortCopy } from "../../elements";
 
 const CVWrapper = styled.div`
   min-height: 100%;
-  padding: 50px 0;
+  padding: 0;
+  text-align: left;
 
   .CVSectionWrapper {
     border: 6px solid black;
@@ -16,7 +17,7 @@ const CVWrapper = styled.div`
     padding: 20px;
 
     @media only screen and (min-width: 576px) {
-      margin: 100px 200px;
+      margin: 100px 20px;
       padding: 50px;
     }
 
@@ -25,14 +26,16 @@ const CVWrapper = styled.div`
     }
   }
 
-  .CVSectionImgWrapper {
+  .CVSectionImg {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+    object-fit: cover;
+    overflow: hidden;
     width: 100%;
-
-    .CVSectionImg {
-      display: block;
-      margin: 0 auto;
-      max-height: 470px;
-    }
   }
 `;
 
@@ -130,9 +133,7 @@ export const CVPanel = () => (
       </ul>
     </div>
 
-    <div className="CVSectionImgWrapper">
-      <img className="CVSectionImg" src={img4} />
-    </div>
+    <img className="CVSectionImg" src={img4} />
 
     <div className="CVSectionWrapper">
       <SectionHeading title="Education" />
@@ -159,9 +160,7 @@ export const CVPanel = () => (
       </ShortCopy>
     </div>
 
-    <div className="CVSectionImgWrapper">
-      <img className="CVSectionImg" src={img12} />
-    </div>
+    <img className="CVSectionImg" src={img12} />
 
     <div className=" CVSectionWrapper">
       <SectionHeading title="Achievements or positions of responsibility" />

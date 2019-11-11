@@ -4,7 +4,7 @@ const MediaPanelWrapper = styled.div`
   .cardList {
     animation: fadeIn 0.5s;
     margin: 0 auto;
-    max-width: 1500;
+    max-width: 1500px;
     padding: 40px 0 0;
 
     &.dark-panel {
@@ -23,7 +23,6 @@ const MediaPanelWrapper = styled.div`
         flex-direction: column;
         justify-content: space-between;
         margin: 10px;
-        min-width: 400px;
         max-width: 500px;
         overflow: hidden;
         padding: 15px 0;
@@ -49,6 +48,9 @@ const MediaPanelWrapper = styled.div`
         }
 
         @media only screen and (min-width: 576px) {
+          width: 70%;
+        }
+        @media only screen and (min-width: 995px) {
           width: 25%;
         }
 

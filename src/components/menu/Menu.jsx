@@ -22,6 +22,13 @@ export class Menu extends Component {
     });
   }
 
+  handleClick() {
+    window.scrollTo(0, 0);
+    this.setState({
+      menuOpen: false
+    });
+  }
+
   render() {
     return (
       <MenuListWrapper>
@@ -32,11 +39,23 @@ export class Menu extends Component {
           {this.state.menuOpen ? "close" : ""}
         </MenuToggleIcon>
         <MenuList className={this.state.menuOpen ? "active" : "inactive"}>
-          <MenuItem menuItemText="Home" menuItemLocation="/" />
-          <MenuItem menuItemText="CV" menuItemLocation="/cv" />
-          {/* <MenuItem menuItemText="Portfolio" menuItemLocation="/portfolio" /> */}
-          <MenuItem menuItemText="In the Media" menuItemLocation="/media" />
           <MenuItem
+            onClick={this.handleClick.bind(this)}
+            menuItemText="Home"
+            menuItemLocation="/"
+          />
+          <MenuItem
+            onClick={this.handleClick.bind(this)}
+            menuItemText="CV"
+            menuItemLocation="/cv"
+          />
+          <MenuItem
+            onClick={this.handleClick.bind(this)}
+            menuItemText="In the Media"
+            menuItemLocation="/media"
+          />
+          <MenuItem
+            onClick={this.handleClick.bind(this)}
             menuItemText="Recognitions"
             menuItemLocation="/recognitions"
           />

@@ -12,8 +12,7 @@ const RecognitionPanelWrapper = styled.div`
   }
 
   .card {
-    background: #c6f1ff;
-    border: 10px solid #1e8bad;
+    border: 10px solid #000;
     margin: 10px;
     overflow: hidden;
     width: 100%;

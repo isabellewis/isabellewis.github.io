@@ -2,16 +2,18 @@ import styled from "styled-components";
 
 const MenuItemWrapper = styled.li`
   display: block;
-  list-style-type: none;
-  padding: 30px 10px 0;
+  padding: 50px 30px 0;
+  max-width: 575px;
+  width: 100vw;
 
   &:last-child {
-    padding: 30px 10px 30px;
+    padding: 50px 40px;
   }
 
   @media only screen and (min-width: 576px) {
     display: inline-block;
     padding: 0 30px 0 0;
+    width: auto;
 
     &:last-child {
       padding: 0 30px 0 0;

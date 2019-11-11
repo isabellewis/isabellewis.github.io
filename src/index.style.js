@@ -19,7 +19,10 @@ const MenuWrapper = styled.div`
 `;
 
 const Main = styled.main`
+  max-width: 1500px;
+  margin: 0 auto;
   padding: 0 0 135px;
+  text-align: center;
 
   @media only screen and (min-width: 576px) {
     padding: 10px 0 100px;
