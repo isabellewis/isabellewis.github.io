@@ -213,6 +213,11 @@ export const CVPanel = () => (
       <ul>
         <li>
           <ShortCopy>
+            Runner up at Junction Connected Hackathon 2020 for cafe intelligence.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
             Influential Women in Tech Longlist | Computer Weekly 2021, 2020 & 2019.
           </ShortCopy>
         </li>
