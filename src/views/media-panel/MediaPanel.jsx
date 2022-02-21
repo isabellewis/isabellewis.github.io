@@ -54,8 +54,8 @@ export const MediaPanel = () => {
             ></SectionHeading>
             <ShortCopy className="mediaPanel__p">
               After attending the React London conference in 2017 I gave a
-              summary at the React London BYOP the next day to present the key
-              learnings I had gained from React London the day before. This
+              summary at the React London BYOP to present the key
+              learnings I had gained from React London. This
               included talking about Snapshot testing and building websites
               offline first.
             </ShortCopy>

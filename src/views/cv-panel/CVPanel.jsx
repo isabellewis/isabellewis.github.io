@@ -51,7 +51,63 @@ export const CVPanel = () => (
     <div className="CVSectionWrapper">
       <SectionHeading title="Experience" />
       <HeadingThree>
-        January 2017 - Present | Associate Technology at Publicis Sapient
+        Front End Developer, Everpress (November 2020 - Present)
+      </HeadingThree>
+      <ul>
+        <li>
+          <ShortCopy>
+            Working with technologies including: React with hooks, Redux, Redux Saga. Testing with Cypress. Styling with Tailwind and CSS Modules.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Data driven development with A/B testing using Google Optimize and analytics tracking with Amplitude.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Owned a project to rebuild the search, assessed different libraries and approaches eventually integrating with Algolia and took the average request time from 1.24s to 14.84ms.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Worked on large features including the checkout journey, new cart, shop, follow an artist, favourite a design.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Recognition for running an Accessibility Hackathon which improved the accessibility experience for customer and creator journeys.
+          </ShortCopy>
+        </li>
+      </ul>
+      <HeadingThree>
+        Senior Associate Technology, Publicis Sapient (September 2019 - November 2020)
+      </HeadingThree>
+      <ul>
+        <li>
+          <ShortCopy>
+            Cloud transformation project for a large UK retail bank.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Working with technologies including: React with hooks, TypeScript, Redux, Redux Thunk and GraphQL. Testing with Jest and React Test Renderer. Styling with Material UI and Styled Components.
+
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Following a Monorepo architecture with React Micro Frontends.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Recognised by the project with a "Learning Mindset" award.
+          </ShortCopy>
+        </li>
+      </ul>
+      <HeadingThree>
+        January 2017 - September 2019 | Associate Technology at Publicis Sapient
       </HeadingThree>
       <ul>
         <li>
@@ -155,6 +211,22 @@ export const CVPanel = () => (
     <div className=" CVSectionWrapper">
       <SectionHeading title="Achievements or positions of responsibility" />
       <ul>
+        <li>
+          <ShortCopy>
+            Influential Women in Tech Longlist | Computer Weekly 2021, 2020 & 2019.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Women In Software Powerlist 2019 | Makers & Computer Weekly
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Women of the Future | Technology & Digital Shortlist 2019
+          </ShortCopy>
+        </li>
+
         <li>
           <ShortCopy>
             Co-chair for VivaWomen, Publicis Sapient's Women Group.
