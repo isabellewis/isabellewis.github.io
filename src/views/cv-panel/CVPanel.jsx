@@ -51,7 +51,52 @@ export const CVPanel = () => (
     <div className="CVSectionWrapper">
       <SectionHeading title="Experience" />
       <HeadingThree>
-        Front End Developer, Everpress (November 2020 - Present)
+        Senior Front End Developer, Nutmeg JPMorganChase (April 2022 - Present)
+      </HeadingThree>
+      <ul>
+        <li>
+          <ShortCopy>
+            Working with cross-stack technologies including: React, TypeScript, Node, XState. Testing with Jest, RTL and Cypress. Styling with CSS Modules and design tokens. CMS with Prismic.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Led projects end to end from inital concept to deployment in production.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Using a Micro Frontend architecture working in cross-functional teams.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Data driven development including the design, implementation and analysis of AB tests using Unleash and working closely with product managers for Amplitude analytics.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Conducted technical spikes to clarify ambiguous requirements and identify dependencies, presenting results to stakeholders.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Collaborated as part of an internal team maintaining Nutmegs component library, to ensure consistency, scalability and accessibility across the wider platform.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Contributed to improvements to the CI/CD pipeline efficiency.
+          </ShortCopy>
+        </li>
+        <li>
+          <ShortCopy>
+            Strong focus on risk and controls.
+          </ShortCopy>
+        </li>
+      </ul>
+      <HeadingThree>
+        Front End Developer, Everpress (November 2020 - March 2022)
       </HeadingThree>
       <ul>
         <li>
